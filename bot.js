@@ -16,7 +16,7 @@ const messages = [
 
 const db = require('./db.json');
 
-const chance = 15;
+const chance = 25;
 
 bot.on('message', async (msg) => {
 	if(msg.author.bot) return;
