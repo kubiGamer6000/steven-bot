@@ -1,0 +1,14 @@
+{
+	"name": "caladius",
+	"version": "1.0.0",
+	"description": "aaa",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^12.2.0"
+	}
+}
