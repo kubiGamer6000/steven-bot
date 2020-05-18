@@ -38,3 +38,5 @@ bot.on('message', async (msg) => {
 	if (Math.floor(Math.random() * chance) == 1)
 		msg.channel.send(messages[Math.floor(Math.random() * messages.length)]);
 });
+
+bot.login(process.env.BOT_TOKEN)
