@@ -1,6 +1,11 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+bot.on('ready', async () => {
+	await bot.user.setActivity(`porn`, { type: 3 });
+});
+
+
 const messages = [
 	`im horny`,
 	`i overdosed on boner pills`,
