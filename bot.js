@@ -24,7 +24,7 @@ const db = require('./db.json');
 const chance = 25;
 
 bot.on('message', async (msg) => {
-	if(msg.author.bot || msg.channel.id = "711567340646563862" || "711840377086148660") return;
+	if(msg.author.bot || msg.channel.id = "711567340646563862" || msg.channel.id = "711840377086148660") return;
 	
 	if (msg.author.id == '531939564437241856' && msg.content.includes('gay' || 'gei' || 'gey' || 'gai' || 'gya'))
 		db.count = parseInt(db.count, 10) + 1;
