@@ -24,7 +24,7 @@ bot.on('message', async (msg) => {
 	if (msg.author.id == '531939564437241856' && msg.content.includes('gay' || 'gei' || 'gey' || 'gai' || 'gya'))
 		db.count = parseInt(db.count, 10) + 1;
 
-	if (msg.content.startsWith('-cc ') || msg.content == '-cc')
+	if (msg.content.startsWith('-cc'))
 		msg.channel.send(
 			new Discord.MessageEmbed()
 				.setColor('#eb4d4b')
