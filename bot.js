@@ -34,7 +34,7 @@ bot.on('message', async (msg) => {
 			new Discord.MessageEmbed()
 				.setColor('#eb4d4b')
 				.setTitle('How many times has Caladius said gay?')
-				.setAuthor('Some name', (await bot.users.fetch('531939564437241856')).avatarURL())
+				.setAuthor('Caladius', (await bot.users.fetch('531939564437241856')).avatarURL())
 				.setDescription('See how homophobic is he..')
 				.setThumbnail((await bot.users.fetch('531939564437241856')).avatarURL())
 				.addField('Count:', db.count)
